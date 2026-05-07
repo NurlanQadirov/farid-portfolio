@@ -164,23 +164,23 @@ export default function Hero() {
           className="flex flex-col sm:flex-row items-center justify-center gap-5 pointer-events-auto w-full"
         >
           <a
-            href="#"
-            className="group relative inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl font-bold text-sm tracking-wider text-white overflow-hidden transition-all duration-300 shadow-[0_0_20px_rgba(14,165,233,0.3)] w-[200px]"
-            style={{
-              background: "linear-gradient(135deg, #0ea5e9, #6366f1)",
-            }}
-            onMouseEnter={(e) => {
-              (e.currentTarget as HTMLAnchorElement).style.boxShadow =
-                "0 0 40px rgba(14,165,233,0.5)";
-            }}
-            onMouseLeave={(e) => {
-              (e.currentTarget as HTMLAnchorElement).style.boxShadow =
-                "0 0 20px rgba(14,165,233,0.3)";
-            }}
-          >
-            <Download size={16} />
-            Download CV
-          </a>
+  href="mailto:Buludluferid@gmail.com?subject=CV Request&body=Salam Fərid, CV-nizi əldə etmək istərdim."
+  className="group relative inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl font-bold text-sm tracking-wider text-white overflow-hidden transition-all duration-300 shadow-[0_0_20px_rgba(14,165,233,0.3)] w-[200px]"
+  style={{
+    background: "linear-gradient(135deg, #0ea5e9, #6366f1)",
+  }}
+  onMouseEnter={(e) => {
+    (e.currentTarget as HTMLAnchorElement).style.boxShadow =
+      "0 0 40px rgba(14,165,233,0.5)";
+  }}
+  onMouseLeave={(e) => {
+    (e.currentTarget as HTMLAnchorElement).style.boxShadow =
+      "0 0 20px rgba(14,165,233,0.3)";
+  }}
+>
+  <Mail size={16} /> {/* İkonu Mail ilə əvəz etmək daha məntiqlidir */}
+  Request CV
+</a>
 
           <a
             href="#contact"
