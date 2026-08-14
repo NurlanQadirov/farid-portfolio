@@ -37,6 +37,7 @@ export default function App() {
         }}
       />
 
+
       <div className="relative z-10">
         <Navbar />
         <main>
