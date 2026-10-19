@@ -293,6 +293,7 @@ export default function FloatingLines({
     renderer.domElement.style.height = '100%';
     container.appendChild(renderer.domElement);
 
+    
     const uniforms = {
       iTime: { value: 0 },
       iResolution: { value: new Vector3(1, 1, 1) },
